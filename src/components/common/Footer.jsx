@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 import SuccessPopUp from "./SuccessPopUp";
 import useFormSubmission from "../../hooks/useFormSubmission";
 import logo from "../../assets/logo.png";
+import instagram from "../../assets/Social Icons/instagram_icon.png";
+import facebook from "../../assets/Social Icons/facebook_icon.png";
+import twitter from "../../assets/Social Icons/twitter_icon.png";
+import youtube from "../../assets/Social Icons/youtube_icon.png";
+import linkedin from "../../assets/Social Icons/linkedin_icon.png";
 
 const initialState = {
   fullname: "",
@@ -212,59 +217,82 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="md:w-1/4">
-            <h1 className="text-primary text-xl font-semibold pb-4">
-              QUICK ENQUIRY{" "}
-            </h1>
-            <form className="flex flex-col gap-y-4" onSubmit={handleSubmit}>
-              <input
-                type="text"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5      "
-                placeholder="Name*"
-                name="fullname"
-                value={formData.fullname}
-                onChange={handleInputChange}
-                required
-              />
-              <input
-                type="email"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5      "
-                placeholder="Email*"
-                name="email"
-                value={formData.email}
-                onChange={handleInputChange}
-                required
-              />
-              <input
-                type="text"
-                id="contact"
-                placeholder="Contact*"
-                name="contact"
-                value={formData.contact}
-                onChange={handleInputChange}
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5      "
-                required
-              />
-              <textarea
-                id="message"
-                rows="4"
-                value={formData.message}
-                name="message"
-                onChange={handleInputChange}
-                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500      "
-                placeholder="Message"
-              ></textarea>
+          <div className="md:w-1/4 flex flex-col justify-between">
+            <div>
+              <h1 className="text-primary text-xl font-semibold pb-4">
+                QUICK ENQUIRY{" "}
+              </h1>
+              <form className="flex flex-col gap-y-4" onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5      "
+                  placeholder="Name*"
+                  name="fullname"
+                  value={formData.fullname}
+                  onChange={handleInputChange}
+                  required
+                />
+                <input
+                  type="email"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5      "
+                  placeholder="Email*"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required
+                />
+                <input
+                  type="text"
+                  id="contact"
+                  placeholder="Contact*"
+                  name="contact"
+                  value={formData.contact}
+                  onChange={handleInputChange}
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5      "
+                  required
+                />
+                <textarea
+                  id="message"
+                  rows="4"
+                  value={formData.message}
+                  name="message"
+                  onChange={handleInputChange}
+                  className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500      "
+                  placeholder="Message"
+                ></textarea>
 
-              <button
-                type="submit"
-                className="text-white bg-primary hover:bg-red-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
+                <button
+                  type="submit"
+                  className="text-white bg-primary hover:bg-red-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
+                >
+                  Send
+                </button>
+              </form>
+              {showSuccessModal && (
+                <SuccessPopUp handleCloseModal={handleCloseModal} />
+              )}
+            </div>
+
+            <div className="flex mt-4 space-x-4 justify-center items-center">
+              <a href="https://www.instagram.com/reel/C86ZzMdRYpv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                <img src={instagram} alt="Instagram" className="h-10 w-10" />
+              </a>
+              <a href="https://www.facebook.com/reel/841234320767166">
+                <img src={facebook} alt="Facebook" className="h-10 w-10" />
+              </a>
+              <a
+                href="https://youtube.com/shorts/Glin9rTPPvo?feature=share
+             "
               >
-                Send
-              </button>
-            </form>
-            {showSuccessModal && (
-              <SuccessPopUp handleCloseModal={handleCloseModal} />
-            )}
+                <img src={youtube} alt="YouTube" className="h-10 w-10" />
+              </a>
+              <a href="https://x.com/EmikoBatteries/status/1808038601935990965">
+                <img src={twitter} alt="Twitter" className="h-10 w-10" />
+              </a>
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7213801642863865856">
+                <img src={linkedin} alt="LinkedIn" className="h-10 w-10" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

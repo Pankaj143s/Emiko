@@ -1,10 +1,10 @@
-import one from "../../assets/product/Solar/1708428388170.jpg";
-import two from "../../assets/product/Solar/1708428388176.jpg";
-import three from "../../assets/product/Solar/1708428388181.jpg";
+import one from "../../assets/product/Solar/1708428388200.jpg";
+import two from "../../assets/product/Solar/1708428388195.jpg";
+import three from "../../assets/product/Solar/1708428388190.jpg";
 import four from "../../assets/product/Solar/1708428388185.jpg";
-import five from "../../assets/product/Solar/1708428388190.jpg";
-import six from "../../assets/product/Solar/1708428388195.jpg";
-import seven from "../../assets/product/Solar/1708428388200.jpg";
+import five from "../../assets/product/Solar/1708428388181.jpg";
+import six from "../../assets/product/Solar/1708428388176.jpg";
+import seven from "../../assets/product/Solar/1708428388170.jpg";
 
 
 export const solarBattery = [

@@ -63,31 +63,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Voltage: 12 V",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Excellent Cranking Performance.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "High CCA Rating.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "Corrosion-Resistance Alloy.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "Low Water Loss.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Vibration Resistant.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "Ideal For High Temperatures.",
+      },
+      {
+        id: 8,
+        title: "Quick Recharge.",
       },
     ],
     rangesOfBatteries: automotiveBattery,
@@ -157,31 +161,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Long back up",
+        title: "Voltage: 12 V",
       },
       {
         id: 2,
-        title: "60-month warranty",
+        title: "Super Strong Grid",
       },
       {
         id: 3,
-        title: "Excellent cycle life",
+        title: "Extra Positive Plate Surface Area",
       },
       {
         id: 4,
-        title: "Deep discharge capabilities",
+        title: "Factory Charged",
       },
       {
         id: 5,
-        title: "Efficiency",
+        title: "Enhanced Charge Acceptance",
       },
       {
         id: 6,
-        title: "Rapid charging",
+        title: "Durability & Robustness",
       },
       {
         id: 7,
-        title: "Safety",
+        title: "Longer Backup",
+      },
+      {
+        id: 8,
+        title: "Jumbo Tubular",
       },
     ],
     rangesOfBatteries: inverterBattery,
@@ -239,31 +247,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 200 Ah.",
-      },
-      {
-        id: 2,
-        title: "Battery Type. Tall Tubular.",
-      },
-      {
-        id: 3,
         title: "Voltage. 12 V.",
       },
       {
+        id: 2,
+        title: "Spill Resistant",
+      },
+      {
+        id: 3,
+        title: "High Cranking Power.",
+      },
+      {
         id: 4,
-        title: "Long Back Up",
+        title: "High Reserve Capacity",
       },
       {
         id: 5,
-        title: "Size. 120x96x200 mm.",
+        title: "Resistance to Salt Water.",
       },
       {
         id: 6,
-        title: "Frequency. 50 Hz.",
+        title: "Vibration Resistant.",
       },
       {
         id: 7,
-        title: "Phase. Single Phase",
+        title: "Extreme Temperature Tolerance",
+      },
+      {
+        id: 8,
+        title: "Ideal for Marine Applications",
       },
     ],
     rangesOfBatteries: marineBattery,
@@ -318,31 +330,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Voltage: 12 V",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Tubular Plate Technology.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "Corrosion Resistant Alloy.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "Optimized Tube Design.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "High Quality Gauntlet.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Thicker and Taller Plate Designs.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "Superior Paste Locking For Negative.",
+      },
+      {
+        id: 7,
+        title: "Robust Container Design.",
       },
     ],
     rangesOfBatteries: eRikshawBattery,
@@ -396,31 +412,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Voltage: 12 V.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Tubular Design.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "High Energy Storage Capacity.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "Extended Lifespan.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "Seamless Integration.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Maximum Efficiency.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "Smart Energy Management.",
+      },
+      {
+        id: 7,
+        title: "Eco-Friendly Solutions.",
       },
     ],
     rangesOfBatteries: solarBattery,
