@@ -274,22 +274,35 @@ const Footer = () => {
             </div>
 
             <div className="flex mt-4 space-x-4 justify-center items-center">
-              <a href="https://www.instagram.com/reel/C86ZzMdRYpv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+              <a
+                href="https://www.instagram.com/reel/C86ZzMdRYpv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                target="blank"
+              >
                 <img src={instagram} alt="Instagram" className="h-10 w-10" />
               </a>
-              <a href="https://www.facebook.com/reel/841234320767166">
+              <a
+                href="https://www.facebook.com/reel/841234320767166"
+                target="blank"
+              >
                 <img src={facebook} alt="Facebook" className="h-10 w-10" />
               </a>
               <a
                 href="https://youtube.com/shorts/Glin9rTPPvo?feature=share
              "
+                target="blank"
               >
                 <img src={youtube} alt="YouTube" className="h-10 w-10" />
               </a>
-              <a href="https://x.com/EmikoBatteries/status/1808038601935990965">
+              <a
+                href="https://x.com/EmikoBatteries/status/1808038601935990965"
+                target="blank"
+              >
                 <img src={twitter} alt="Twitter" className="h-10 w-10" />
               </a>
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7213801642863865856">
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7213801642863865856"
+                target="blank"
+              >
                 <img src={linkedin} alt="LinkedIn" className="h-10 w-10" />
               </a>
             </div>
