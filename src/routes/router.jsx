@@ -10,6 +10,7 @@ import FindDealer from "../components/sections/whereToBuy/FindDealer";
 import BecomeDealer from "../components/sections/whereToBuy/BecomeDealer";
 import BecomeDistributor from "../components/sections/whereToBuy/BecomeDistributor";
 import WhereToBuy from "../pages/WhereToBuy";
+import BlogPage from "../components/sections/blogs/BlogPage";
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
       {
         path: "become-distributor",
         element: <BecomeDistributor />,
+      },
+      {
+        path: "blogs",
+        element: <BlogPage />,
       },
     ],
   },
