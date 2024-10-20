@@ -9,8 +9,8 @@ const BlogPage = () => {
 
   // Initialize Contentful client
   const client = createClient({
-    space: "Your space id",
-    accessToken: "Your Token Id",
+    space: import.meta.env.VITE_CONTENTFUL_SPACE_ID,
+    accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
   });
 
   useEffect(() => {
